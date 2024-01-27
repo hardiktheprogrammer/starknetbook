@@ -80,15 +80,15 @@ security.
 
 Sequencers follow a systematic method for transaction processing:
 
-1.  Sequencing: They collect transactions from users and order
+1.  **Sequencing**: They collect transactions from users and order
     (sequence) them.
 
-2.  Executing: Sequencers then process these transactions.
+2.  **Executing**: Sequencers then process these transactions.
 
-3.  Batching: Transactions are grouped together in batches or blocks for
+3.  **Batching**: Transactions are grouped together in batches or blocks for
     efficiency.
 
-4.  Block Production: Sequencers produce blocks that contain batches of
+4.  **Block Production**: Sequencers produce blocks that contain batches of
     processed transactions.
 
 Sequencers must be reliable and highly available, as their role is
@@ -112,16 +112,16 @@ that these processes were correctly performed.
 
 The duties of a Prover include:
 
-1.  Receiving Blocks: Provers obtain blocks of processed transactions
+1.  **Receiving Blocks**: Provers obtain blocks of processed transactions
     from Sequencers.
 
-2.  Processing: Provers process these blocks a second time, ensuring
+2.  **Processing**: Provers process these blocks a second time, ensuring
     that all transactions within the block have been correctly handled.
 
-3.  Proof Generation: After processing, Provers generate a proof of
+3.  **Proof Generation**: After processing, Provers generate a proof of
     correct transaction processing.
 
-4.  Sending Proof to Ethereum: Finally, the proof is sent to the
+4.  **Sending Proof to Ethereum**: Finally, the proof is sent to the
     Ethereum network for validation. If the proof is correct, the
     Ethereum network accepts the block of transactions.
 

@@ -250,10 +250,10 @@ This is the Rust code for a multisig account contract:
 
 The flow of a multisig transaction includes the following steps:
 
-1.  Submitting a transaction: Any of the owners can submit a transaction
+1.  **Submitting a transaction**: Any of the owners can submit a transaction
     from the account.
 
-2.  Confirming the transaction: The owner who hasn’t submitted a
+2. **Confirming the transaction**: The owner who hasn’t submitted a
     transaction can confirm the transaction.
 
 The transaction will be successfully executed if the number of

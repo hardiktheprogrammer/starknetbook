@@ -10,7 +10,7 @@ This section guides you through the creation of the simplest possible account co
 - Signature validation for transactions will be not enforced. In other words, every transaction will be considered valid no matter who signed it; there will be no pivate key.
 - It will make a single call and not multicall in the execution phase.
 - It will only implement the SNIP-6 standard which is the minimum to be considered an account contract.
->>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
+
 
 We will deployed using `starknet.py` and use it to deploy other contracts.
 

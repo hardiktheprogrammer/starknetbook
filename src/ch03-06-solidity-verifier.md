@@ -99,7 +99,7 @@ Below is a visual representation of these parameters in relation to key contract
 - **Verification:** It integrates with `MerkleStatementContract` for merkle verification and `FriStatementContract` for Fri-related tasks.
 - **Security:** The `num_security_bits` and `min_proof_of_work_bits` contracts ensure secure operation.
 
-**NOTE:** For instances like `CpuFrilessVerifier0`, specific contracts (e.g., `CpuConstraintPoly0`, `PoseidonPoseidonFullRoundKeyColumn0`, `CpuOods0`) become particularly relevant.
+> **NOTE:** For instances like `CpuFrilessVerifier0`, specific contracts (e.g., `CpuConstraintPoly0`, `PoseidonPoseidonFullRoundKeyColumn0`, `CpuOods0`) become particularly relevant.
 
 #### GpsStatementVerifier Constructor Parameters
 
