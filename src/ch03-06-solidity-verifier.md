@@ -6,7 +6,11 @@ Starknet's Solidity Verifier plays a pivotal role in the rollup landscape, ensur
 
 ## Quick Overview: SHARP and Sharp Jobs
 
-> NOTE: For a more detailed explanation of SHARP and Sharp Jobs, refer to the Provers subchapter in the Starknet Architecture chapter. This is a brief review.
+<<<<<<< HEAD
+>**NOTE**: For a more detailed explanation of SHARP and Sharp Jobs, refer to the Provers subchapter in the Starknet Architecture chapter. This is a brief review.
+=======
+NOTE: For a more detailed explanation of SHARP and Sharp Jobs, refer to the Provers subchapter in the Starknet Architecture chapter. This is a brief review.
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 
 SHARP, or Shared Prover, in Starknet, aggregates various Cairo programs from distinct users. These programs, each with unique logic, run together, producing a common proof for all, optimizing cost and efficiency.
 
@@ -99,7 +103,11 @@ Below is a visual representation of these parameters in relation to key contract
 - **Verification:** It integrates with `MerkleStatementContract` for merkle verification and `FriStatementContract` for Fri-related tasks.
 - **Security:** The `num_security_bits` and `min_proof_of_work_bits` contracts ensure secure operation.
 
+<<<<<<< HEAD
 > **NOTE:** For instances like `CpuFrilessVerifier0`, specific contracts (e.g., `CpuConstraintPoly0`, `PoseidonPoseidonFullRoundKeyColumn0`, `CpuOods0`) become particularly relevant.
+=======
+**NOTE:** For instances like `CpuFrilessVerifier0`, specific contracts (e.g., `CpuConstraintPoly0`, `PoseidonPoseidonFullRoundKeyColumn0`, `CpuOods0`) become particularly relevant.
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 
 #### GpsStatementVerifier Constructor Parameters
 

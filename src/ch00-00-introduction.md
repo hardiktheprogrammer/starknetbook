@@ -53,30 +53,30 @@ Starknet's ethos is anchored in core principles ([Eli Ben-Sasson, Bareli, Brandt
 
 These are some key features of Starknet:
 
-- Low Costs: Transactions on Starknet cost less than on Ethereum.
+- **Low Costs**: Transactions on Starknet cost less than on Ethereum.
   Future updates like Volition and EIP 4844 will make it even cheaper.
 
-- Developer-Friendly: Starknet lets developers easily build
+- **Developer-Friendly**: Starknet lets developers easily build
   decentralized apps using its native language, Cairo.
 
-- Speed and Efficiency: Upcoming releases aim to make transactions
+- **Speed and Efficiency**: Upcoming releases aim to make transactions
   even faster and cheaper.
 
-- CVM: Thanks to Cairo, Starknet runs on it´s own VM, called Cairo VM
+- **CVM**: Thanks to Cairo, Starknet runs on it´s own VM, called Cairo VM
   (CVM), that allow us to innovate beyond the Ethereum Virtual Machine
   (EVM) and create a new paradigm for decentralized applications.
 
 Here are some of them:
 
-- Account Abstraction: Implemented at the protocol level, this
+- **Account Abstraction**: Implemented at the protocol level, this
   facilitates diverse signing schemes while ensuring user security and
   self-custody of assets.
 
-- Volition: Will be implemented on testnet during Q4 2023 will allow
+- **Volition**: Will be implemented on testnet during Q4 2023 will allow
   developers to regulate data availability on Ethereum (L1) or on
   Starknet (L2). Reducing L1 onchain data can radically reduce costs.
 
-- Paymaster: Starknet will allow users to choose how to pay for
+- **Paymaster**: Starknet will allow users to choose how to pay for
   transaction fee, follows the guidelines laid out in EIP 4337 and
   allows the transaction to specify a specific contract, a
   **Paymaster**, to pay for their transaction. Supports gasless

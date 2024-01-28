@@ -6,6 +6,7 @@ In this section we will be focussing on declaring, deploying and interacting wit
 
 To declare and deploy the piggy bank contract, it’s required that you have the following available; don't worry, we’ll point you to resources or links to get them sorted out.
 
+<<<<<<< HEAD
 1. **Starkli**: Starkli is a CLI tool that connects us to the Starknet blockchain. Installation steps can be found [here](ch02-02-starkli-scarb-katana.md).
 
 2. **Starknet testnet RPC**: You need your personalized gateway to access the starknet network. Starkli utilizes this API gateway to communicate with the starknet network: you can get one from Infura [here](https://app.infura.io).
@@ -13,6 +14,15 @@ To declare and deploy the piggy bank contract, it’s required that you have the
 3. **Deployer Account**: To interact with the starknet network via Starkli, you need a cli account/ wallet. You can easily set that up by going through [this page](ch04-03-deploy-hello-account.md).
 
 4. **Sufficient gas fees to cover the declaration and deployment steps**: you can get starknet Goerli Eth either by bridging your Goerli Eth on Ethereum to Starknet [here](https://goerli.starkgate.starknet.io/), or by using the starknet faucet to get goerli Eth [here](https://faucet.goerli.starknet.io/).
+=======
+1. **Starkli**:   Starkli is a CLI tool that connects us to the Starknet blockchain. Installation steps can be found [here](ch02-02-starkli-scarb-katana.md).
+
+2. **Starknet testnet RPC**: You need your personalized gateway to access the starknet network. Starkli utilizes this API gateway to communicate with the starknet network: you can get one from Infura [here](https://app.infura.io).
+
+3. **Deployer Account**: To interact with the starknet network via Starkli, you need a cli account/ wallet. You can easily set that up by going through [this page](ch04-03-deploy-hello-account.md).
+
+4. Sufficient gas fees to cover the declaration and deployment steps: you can get starknet Goerli Eth either by bridging your Goerli Eth on Ethereum to Starknet [here](https://goerli.starkgate.starknet.io/), or by using the starknet faucet to get goerli Eth [here](https://faucet.goerli.starknet.io/).
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 
 Once you’ve been able to sort all that out, let's proceed with declaring and deploying the piggy bank contract.
 

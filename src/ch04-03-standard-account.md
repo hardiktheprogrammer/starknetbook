@@ -1,5 +1,6 @@
 # Standard Account Contract
 
+<<<<<<< HEAD
 >**NOTE:**
 >THIS CHAPTER NEEDS TO BE UPDATED TO REFLECT THE NEW SYNTAX FOR ACCOUNT CONTRACTS. PLEASE DO NOT USE THIS CHAPTER AS A REFERENCE UNTIL THIS NOTE IS REMOVED.
 
@@ -14,6 +15,16 @@ For deploying an account contract to Starknet's testnet or mainnet, use Scarb ve
 
 To check your current Scarb version, run:
 
+=======
+This section guides you through the creation of a standard account contract, adhering to the SNIP-6 and SRC-5 standards. Previously, we created a simple account contract that lacked signature validation and multicall execution. This time, we'll implement a more robust account contract that includes these features and adheres to the standards of an account contract.
+
+## Setting Up Your Project
+
+For deploying an account contract to Starknet's testnet or mainnet, use Scarb version 2.3.1, which is compatible with the Sierra 1.3.0 target supported by both networks. For the latest information, review the [Starknet Release Notes](https://docs.starknet.io/documentation/starknet_versions/version_notes/). As of November 2023, Scarb version 2.3.1 is the recommended choice.
+
+To check your current Scarb version, run:
+
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 ```bash
 scarb --version
 ```

@@ -1,6 +1,10 @@
 # Deployment Script Example
 
+<<<<<<< HEAD
 > **RECOMMENDED:** Before starting this chapter, make sure you have completed the Starknet Devnet subchapter.
+=======
+> RECOMMENDED: Before starting this chapter, make sure you have completed the Starknet Devnet subchapter.
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 
 This tutorial explains how to set up a test and deployment environment for smart contracts. The given script initializes accounts, runs tests, and carries out multicalls.
 

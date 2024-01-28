@@ -42,7 +42,11 @@ const connectWallet = async () => {
 };
 ```
 
+<<<<<<< HEAD
 > **NOTE**: Web Wallet is currently available only on the mainnet. For testnet access, contact the Argent team.
+=======
+> NOTE: Web Wallet is currently available only on the mainnet. For testnet access, contact the Argent team.
+>>>>>>> 97de1e8ae50ff447117faec5d147f0124d075eea
 
 ## Transaction Signing Process
 

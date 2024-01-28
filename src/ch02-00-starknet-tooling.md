@@ -35,15 +35,15 @@ enabling efficient dApp development.
 Here’s a quick rundown of the tools that could be used for Starknet
 development and that we’ll cover in this chapter:
 
-1.  Scarb: A package manager that compiles your contracts.
+1. **Scarb**: A package manager that compiles your contracts.
 
-2.  Starkli: A CLI tool for interacting with the Starknet network.
+2.  **Starkli**: A CLI tool for interacting with the Starknet network.
 
-3.  Starknet Foundry: For contract testing.
+3.  **Starknet Foundry**: For contract testing.
 
-4.  Katana: Creates a local test node.
+4. **Katana**: Creates a local test node.
 
-5.  SDKs: starknet.js, Starknet.py, and starknet.rs interface with
+5.  **SDKs**: starknet.js, Starknet.py, and starknet.rs interface with
     Starknet using common programming languages.
 
-6.  Starknet-react: Builds front-end apps using React.
+6.  **Starknet-react**: Builds front-end apps using React.

@@ -1,71 +1,14 @@
-# Hello World! Account Contract
+# Hello World Account Contract
 
-<<<<<<< HEAD
-> **NOTE:** THIS CHAPTER NEEDS TO BE UPDATED TO REFLECT THE NEW SYNTAX FOR ACCOUNT CONTRACTS. PLEASE DO NOT USE THIS CHAPTER AS A REFERENCE UNTIL THIS NOTE IS REMOVED.
+> **NOTE:**
+THIS CHAPTER NEEDS TO BE UPDATED TO REFLECT THE NEW SYNTAX FOR ACCOUNT CONTRACTS. PLEASE DO NOT USE THIS CHAPTER AS A REFERENCE UNTIL THIS NOTE IS REMOVED.
 
-> **CONTRIBUTE**: This subchapter is missing an example of declaration, deployment and interaction with the contract. We would love to see your contribution! Please submit a PR.
-=======
-This section guides you through the creation of the simplest possible account contract, adhering to the SNIP-6 standard. The account contract will be the simplest implementation of an account contract, with the following features:
+**CONTRIBUTE: This subchapter is missing an example of declaration, deployment and interaction with the contract. We would love to see your contribution! Please submit a PR.**
 
-- Signature validation for transactions will be not enforced. In other words, every transaction will be considered valid no matter who signed it; there will be no pivate key.
-- It will make a single call and not multicall in the execution phase.
-- It will only implement the SNIP-6 standard which is the minimum to be considered an account contract.
-
-
-We will deployed using `starknet.py` and use it to deploy other contracts.
-
-## Setting Up Your Project
-
-For deploying an account contract to Starknet's testnet or mainnet, use Scarb version 2.3.1, which is compatible with the Sierra 1.3.0 target supported by both networks. For the latest information, review the [Starknet Release Notes](https://docs.starknet.io/documentation/starknet_versions/version_notes/). As of November 2023, Scarb version 2.3.1 is the recommended choice.
-
-To check your current Scarb version, run:
-
-```bash
-scarb --version
-```
-
-To install or update Scarb, refer to the Basic Installation instructions in Chapter 2, covering macOS and Linux environments:
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh
-```
-
-## Starting a New Scarb Project
-
-Begin by creating a new project (more details in the Scarb subchapter in Chapter 2):
-
-```bash
-scarb new hello_account
-```
-
-Check the generated project structure:
-
-```bash
-$ tree .
-.
-└── hello_account
-    ├── Scarb.toml
-    └── src
-        └── lib.cairo
-```
-
-By default, Scarb sets up for vanilla Cairo. Add Starknet capacities by editing `Scarb.toml` to include the `starknet` dependency:
-
-```bash
-[package]
-name = "hello_account"
-version = "0.1.0"
-
-[dependencies]
-starknet = ">=2.3.0"
-
-[[target.starknet-contract]]
-sierra = true
-casm = true
-casm-add-pythonic-hints = true
-```
-
-Replace the code in `src/lib.cairo` with the Hello World account contract:
+In this chapter, we will explore the fundamentals of account contracts
+in Starknet using an example "Hello World" account contract written in
+Cairo language. You can find it in the contracts directory of this
+chapter in the Book’s repository (TODO: add link).
 
 ```rust
 use starknet::account::Call;
